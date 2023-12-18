@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0144f75b4e.js" crossorigin="anonymous"></script>
     <title>Home Page</title>
 </head>
-
 <body>
-
     <header>
         <nav>
             <div class="nav-logo">
-                <img src="" alt="">
+                <img src="img/logo.png" alt="">
                 <a href="">course</a>
             </div>
             <div class="nav-links">
@@ -30,20 +31,20 @@
                 +43 4566 7788 2457
             </div>
             <div class="nav-burger">
-                <div></div>
-                <div></div>
-                <div></div>
+                <div><a href=""></a></div>
+                <div><a href=""></a></div>
+                <div><a href=""></a></div>
             </div>
         </nav>
 
         <div class="hero">
-            <img src="" alt="">
-            <div class="Education_today">
+            <img src="img/slider_background.jpg" alt="">
+            <div class="education-today">
                 <div class="hero-button">
                     prev
                 </div>
                 <div class="hero-title">
-                    <h1>Get your <span>Education</span> today!</h1>
+                    <h1>Get your<span> Education</span> today!</h1>
                 </div>
                 <div class="hero-button">
                     next
@@ -51,21 +52,21 @@
             </div>
             <div class="hero-onglets">
                 <div class="hero-onglet onglet-courses">
-                    <img src="" alt="">
+                    <img src="img/earth-globe.svg" alt="">
                     <div class="onglet-link">
                         <h2>Online Courses</h2>
                         <a href="">view more</a>
                     </div>
                 </div>
                 <div class="hero-onglet onglet-library">
-                    <img src="" alt="">
+                    <img src="img/milestone_3.svg" alt="">
                     <div class="onglet-link">
                         <h2>Our Library</h2>
                         <a href="">view more</a>
                     </div>
                 </div>
                 <div class="hero-onglet onglet-teachers">
-                    <img src="" alt="">
+                    <img src="img/professor.svg" alt="">
                     <div class="onglet-link">
                         <h2>Our Teachers</h2>
                         <a href="">view more</a>
@@ -81,40 +82,46 @@
                 <div class="orange-line"></div>
                 <h3>Popular Courses</h3>
             </div>
-            <div class="grid-container-courses">
+            <div class="grid-container-courses wrapper">
                 <div class="grid-box-courses">
-                    <img src="" alt="">
+                    <img src="img/course_1.jpg" alt="">
                     <h4>A complete guide to design</h4>
                     <p>Adobe Guide, Layes, Smart Objects etc...</p>
                     <div class="professor-onglet">
-                        <img src="" alt="">
-                        <p><strong>Michael Smith,</strong>Author</p>
+                        <div class="author-info">
+                            <img src="img/author.jpg" alt="">
+                            <p><strong>Michael Smith,</strong> Author</p>
+                        </div>
                         <div class="professor-price">$29</div>
                     </div>
                 </div>
                 <div class="grid-box-courses">
-                    <img src="" alt="">
+                    <img src="img/course_2.jpg" alt="">
                     <h4>Beginners guide to HTML</h4>
                     <p>Adobe Guide, Layes, Smart Objects etc...</p>
                     <div class="professor-onglet">
-                        <img src="" alt="">
-                        <p><strong>Michael Smith,</strong>Author</p>
+                        <div class="author-info">
+                            <img src="img/author.jpg" alt="">
+                            <p><strong>Michael Smith,</strong> Author</p>
+                        </div>
                         <div class="professor-price">$29</div>
                     </div>
                 </div>
                 <div class="grid-box-courses">
-                    <img src="" alt="">
+                    <img src="img/course_3.jpg" alt="">
                     <h4>Advanced Photoshop</h4>
                     <p>Adobe Guide, Layes, Smart Objects etc...</p>
                     <div class="professor-onglet">
-                        <img src="" alt="">
-                        <p><strong>Michael Smith,</strong>Author</p>
+                        <div class="author-info">
+                            <img src="img/author.jpg" alt="">
+                            <p><strong>Michael Smith,</strong> Author</p>
+                        </div>
                         <div class="professor-price">$29</div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="register-now&search">
+        <section class="register-now-search">
             <div class="register-now">
                 <h3>Register now and get a discount <span>50%</span> discount until 1 January</h3>
                 <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempo.</p>
@@ -123,6 +130,7 @@
                 </div>
             </div>
             <div class="searchcourses">
+                <img src="img/search_background.jpg" alt="">
                 <h3>Search for your course</h3>
                 <form action="">
                     <input type="text" placeholder="Course Name" id="">

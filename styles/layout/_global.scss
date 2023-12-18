@@ -1,0 +1,45 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.wrapper {
+    width: 95vw;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: 400;
+    font-size: 45px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 22px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 19px;
+}
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13vh;
+    margin-bottom: 6vh;
+    .orange-line {
+        width: 60px;
+        height:3px;
+        background-color: #ffb606;
+    }
+
+}
+.button {
+    padding: 15px 45px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
