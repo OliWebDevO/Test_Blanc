@@ -103,19 +103,7 @@
         opacity: 0.30;
         z-index: -1;
     }
-    form {
-        margin-top: 30px;
-        input {
-            width: 95vw;
-            height: 40px;
-            padding: 20px 30px;
-            margin: 10px 0;
-            color: #a5a5a5;
-            font-size: 14px;
-            border: none;
-            background-color: #fff;
-        }
-    }
+    
     .button-large-orange {
         margin-top: 20px;
         width: 95vw;
@@ -123,3 +111,110 @@
 
     }
 }
+
+
+.grid-container-services {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        height: 40px;
+        margin-top: 30px;
+    }
+    p {
+        color: #a5a5a5;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+.what-students-say {
+    height: 90vh;
+    background-image: url(../img/testimonials_background_2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section-title {
+        color: white;
+    }
+    img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        object-position: -15px;
+    }
+
+}
+.flex-student {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .orange-quote {
+        font-size: 25px;
+        color: #ffb606;
+    }
+    p {
+        padding: 0 5vw;
+        color: white;
+        font-size: 14px;
+        line-height: 2;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    h5 {
+        margin-top:20px;
+        margin-bottom: 10px;
+        color: #ffb606;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    h6 {
+        margin: 0;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+}
+.flex-events {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+    h5 {
+        margin-top: 0;
+
+    }
+    p {
+        color: #a5a5a5;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 50px;
+    }
+}
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffb606;
+    width: 100px;
+    height: 100px;
+    margin: 30px 0;
+    color: #ffb606;
+    h2 {
+        margin: 0;
+        font-size: 35px;
+    }
+}
+
