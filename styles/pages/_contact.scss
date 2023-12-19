@@ -1,8 +1,10 @@
 .hero-contact {
   img {
       height: 45vh;
+      width: 100vw;
       object-fit: cover;
       object-position: center;
+
   }
 }
 .hero-title-contact {
@@ -101,4 +103,97 @@
     left: 0;
     top: 0;
     position: absolute;
+  }
+
+
+ 
+  @media screen and (min-width:575px) {
+
+    .contact .wrapper {
+      width: 520px;
+    }
+    .get-in-touch {
+      .form {
+        margin-top: 5vh;
+        input {
+            width: 520px;
+        }
+        textarea {
+          width: 520px;
+        }
+      }
+  }
+  }
+  @media screen and (min-width:768px) {
+    .contact .wrapper {
+      width: 720px;
+    }
+    .get-in-touch {
+      .form {
+        margin-top: 5vh;
+        input {
+            width: 720px;
+        }
+        textarea {
+          width: 720px;
+        }
+      }
+  }
+    
+  }
+  @media screen and (min-width:992px) {
+    .flex-contact {
+      display: flex;
+    }
+    .contact .wrapper {
+      width:900px;
+    }
+    .get-in-touch {
+      .form {
+        margin-top: 5vh;
+        input {
+            width: 580px;
+        }
+        textarea {
+          width: 580px;
+        }
+      }
+      .button { 
+        width: 580px;
+      }
+    }
+    .join-courses {
+      padding-left: 30px;
+      h2 {
+        margin-bottom: 8vh;
+      }
+      p {
+        font-size: 14px;
+        width: 300px;
+      }
+    }   
+  }
+  @media screen and (min-width:1200px) {
+    .contact .wrapper {
+      width:1100px;
+    }
+    .get-in-touch {
+      .form {
+        input {
+            width: 720px;
+        }
+        textarea {
+          width: 720px;
+        }
+      }
+      .button { 
+        width: 720px;
+      }
+    }
+    .join-courses {
+      padding-left: 30px;
+      p {
+        width: 360px;
+      }
+    }   
   }
