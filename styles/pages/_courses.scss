@@ -1,0 +1,21 @@
+.hero-courses {
+    img {
+        height: 45vh;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.hero-title-courses {
+    position: absolute;
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    z-index: 2;
+    color: #fff;
+    padding: 0;
+    height: 80px;
+    h1 {
+        background-color: #ffb606;
+        padding: 5px 20px;
+    }
+}
