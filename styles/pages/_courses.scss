@@ -1,6 +1,6 @@
 .hero-courses {
     img {
-        height: 45vh;
+        height: 55vh;
         width: 100vw;
         object-fit: cover;
         object-position: center;
@@ -78,6 +78,21 @@
         padding: 24.5px;
 
     }
+  
+}  
+@media screen and (min-width:575px) {
+    .hero-title-courses {
+        
+        top: 25%;
+        left: 40%;
+    }
+}
+@media screen and (min-width:768px) {
+    .hero-title-courses {
+        
+        top: 25%;
+        left: 40%;
+    }
 }
 @media screen and (min-width:992px) {
     .grid-container-courses {
@@ -90,9 +105,23 @@
             margin-right: 30px;
         }
     }
+    .hero-title-courses {
+        
+        top: 25%;
+        left: 40%;
+    }
 }
 @media screen and (min-width:1200px) {
     .grid-box-courses {
         width: 340px;
+    }
+    .hero-title-courses {
+        
+        top: 25%;
+        left: 40%;
+        
+        h1 {
+            font-size: 70px ;
+        }
     }
 }

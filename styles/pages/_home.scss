@@ -103,7 +103,7 @@
         color: #ffb606;
     }
     p {
-        padding: 0 5vw;
+        width: 90vw;
         color: white;
         font-size: 14px;
         line-height: 2;
@@ -159,3 +159,72 @@
     }
 }
 
+@media screen and (min-width:575px) {
+    .searchcourses {
+        .form {
+            input {
+                width: 70vw;
+            }
+        }
+        .button {
+            width: 70vw;
+        }
+    }
+}
+@media screen and (min-width:768px) {
+    .flex-student {
+        p {
+            width: 60vw;
+        }
+    }
+    
+}
+@media screen and (min-width:992px) {
+    
+    
+
+    .flex-event {
+        display: flex;
+        margin-bottom: 50px;
+        .date {
+            margin-right: 60px;
+            padding: 50px;
+        }
+        .event-text {
+            margin-right: 30px;
+        }
+        img {
+            width: 350px;
+            order: 10;
+        }
+    }
+    .grid-container-services {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:40px;
+        margin-bottom: 10vh;
+    }
+    .register-now-search {
+        flex-direction: row;
+        .register-now {
+            width: 50vw;
+            height: 80vh;
+        }
+        .searchcourses {
+            width: 50vw;
+            height: 80vh;
+            .form {
+                input {
+                    width: 30vw;
+                }
+            }
+            .button {
+                width: 30vw;
+            }
+        }
+    }
+
+
+}
+@media screen and (min-width:1200px) {
+}

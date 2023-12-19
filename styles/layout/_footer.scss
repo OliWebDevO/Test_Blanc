@@ -78,6 +78,14 @@ footer {
 .footer-contact {
     display: flex;
     flex-direction: column;
+    .footer-img {
+        display: flex;
+        align-items: center;
+    }
+    img {
+        height: 25px;
+        padding-right: 10px;
+    }
     
 }
 

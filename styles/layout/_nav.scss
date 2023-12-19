@@ -1,8 +1,26 @@
 .nav-links {
     display: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    a {
+        @include transition;
+    }
+    a:hover {
+        color: #ffb606;
+        @include transition;
+    }
 }
 .nav-phone {
     display: none;
+    background-color: #ffb606;
+    padding: 45px 30px;
+    color: white;
+    i {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    
 }
 .nav-logo {
     display: flex;
@@ -19,7 +37,8 @@
 }
 nav {
     position: fixed;
-    top: 5vh;
+    z-index: 3;
+    top: 2vh;
     left: 5vw;
     width: 90vw;
     display: flex;
@@ -43,5 +62,47 @@ nav {
         margin-bottom: 2px;
         background-color: #3a3a3a;
         
+    }
+}
+@media screen and (min-width:575px) {
+nav {
+    padding: 35px 30px;
+}
+.nav-logo {
+    font-size: 30px;
+    font-weight: 700;
+    img {
+        height: 40px ;
+    }
+}
+}
+
+
+@media screen and (min-width:992px) {
+    nav {
+        justify-content: space-between;
+    }
+    .nav-burger {
+        display: none;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a:not(:last-child) {
+            padding-right: 3vw ;
+        }
+    }
+}
+@media screen and (min-width:1200px) {
+    nav {
+        padding: 0;
+    }
+    .nav-phone {
+        display: flex;
+    }
+    .nav-logo {
+        padding-left: 30px;
     }
 }

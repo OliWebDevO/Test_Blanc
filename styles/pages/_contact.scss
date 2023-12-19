@@ -1,6 +1,6 @@
 .hero-contact {
   img {
-      height: 45vh;
+      height: 55vh;
       width: 100vw;
       object-fit: cover;
       object-position: center;
@@ -123,6 +123,10 @@
         }
       }
   }
+  .hero-title-contact {
+    top: 25%;
+    left: 40% 
+    }
   }
   @media screen and (min-width:768px) {
     .contact .wrapper {
@@ -139,6 +143,11 @@
         }
       }
   }
+  .hero-title-contact {
+    top: 25%;
+    left: 40% 
+    }
+    
     
   }
   @media screen and (min-width:992px) {
@@ -172,7 +181,12 @@
         width: 300px;
       }
     }   
+    .hero-title-contact {
+      top: 25%;
+      left: 40% 
+      }
   }
+  
   @media screen and (min-width:1200px) {
     .contact .wrapper {
       width:1100px;
@@ -196,4 +210,12 @@
         width: 360px;
       }
     }   
+    .hero-title-contact {
+      top: 25%;
+      left: 40%;
+      
+      h1 {
+          font-size: 70px ;
+      }
+    }
   }

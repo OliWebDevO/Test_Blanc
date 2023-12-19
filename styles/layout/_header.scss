@@ -7,9 +7,14 @@
 
 .hero-button {
         display: none;
+        color: black;
+        a {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
     }
 .hero-title {
-        position: absolute;
         position: absolute;
         top: 50%;
         left: 16%;
@@ -25,11 +30,17 @@
             }
         }
     }
+    .hero-button {
+        padding: 20px;
+        background-color: white;
+        color: black;
+    }
 .hero-onglets {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 10vh;
+    cursor: pointer;
 
 }
 .hero-onglet {
@@ -67,4 +78,92 @@
         font-size: 10px;
         
     }
+}
+
+@media screen and (min-width:575px) {
+    .hero-onglets {
+        width: 520px;
+        margin: 6vh auto;
+      }
+      .hero-onglet {
+        width: 520px;
+        margin: 20px 0;
+      }
+}
+@media screen and (min-width:768px) {
+    .hero-title {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hero-onglets {
+        width: 720px;
+      }
+      .hero-onglet {
+        width: 720px;
+      }
+
+}
+@media screen and (min-width:992px) {
+    .onglet-courses {
+        position: absolute;
+        width: 250px;
+        top:70vh;
+        left: 100px;
+    }
+    .onglet-library {
+        position: absolute;
+        width: 250px;
+        top:70vh;
+        left: 37%;
+    }
+    .onglet-teachers {
+        position: absolute;
+        width: 250px;
+        top:70vh;
+        right: 100px;
+    }
+}
+@media screen and (min-width:1200px) {
+   
+    .hero-button {
+        display: flex;
+    }
+    .hero-button:nth-of-type(1) { position: absolute;
+        top: 50%;
+        left: 6%;
+        transform: translate(-10%, -50%);
+    }
+    .hero-button:nth-of-type(3) { position: absolute;
+        top: 50%;
+        right: 6%;
+        transform: translate(-10%, -50%);
+        
+    }
+    .onglet-courses {
+        position: absolute;
+        width: 320px;
+        top:70vh;
+        left: 100px;
+    }
+    .onglet-library {
+        position: absolute;
+        width: 320px;
+        top:70vh;
+        left: 39%;
+    }
+    .onglet-teachers {
+        position: absolute;
+        width: 320px;
+        top:70vh;
+        right: 100px;
+    }
+    // .hero-onglets {
+    //     position: absolute;
+    //     top: -20px;
+    //     left: 550px;
+    //     .hero-onglet {
+    //         margin-right: 550px;
+    //     }
+    // }
 }
